@@ -1,7 +1,9 @@
 # Classification-of-Cats-and-Dogs-using-SVM
 **Assignment: Classify Cats and Dogs: Test one or more classifiers using either the classification learner app from Matlab or OpenCV or Python and TensorFlow**
+
 **Project Summary**
 ![image](https://github.com/aleenarayamajhi/Classification-of-Cats-and-Dogs-using-SVM/assets/126793934/b97648e7-f883-4fe1-8372-71e50a503238)
+
 **Dataset**
 For this project, the dataset of 5000 images of dog and cat each were downloaded from Kaggle. Image preprocessing was done to make the dataset suitable for training. A total of 4000 images were chosen for this project (2000 each for cat and dog). The dataset had RGB images which were converted into grayscale so that there’s just one channel instead of three (R, G, and B). Then, the grayscale images were reduced to 100 * 100 pixels size. Converting into grayscale and 100 * 100 pixels size helped to reduce dimension, noise, increase simplicity, uniformity, and memory efficiency. It also helped to simplify feature extraction. Initially, the code was run with RGB images which took comparatively more time to train than with grayscale images. The data was split into training and testing sets using the train_test_split function from scikit-learn.
 ![image](https://github.com/aleenarayamajhi/Classification-of-Cats-and-Dogs-using-SVM/assets/126793934/9b98c752-ed5c-42b3-8b70-0ab147cddb35)
