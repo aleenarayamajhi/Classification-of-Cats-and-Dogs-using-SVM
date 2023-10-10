@@ -1,4 +1,5 @@
 # Classification-of-Cats-and-Dogs-using-SVM
+**This repository is a part of an assignment of Pattern Recognition Course of graduate studies of University of Georgia.**
 **Assignment: Classify Cats and Dogs: Test one or more classifiers using either the classification learner app from Matlab or OpenCV or Python and TensorFlow**
 
 **Project Summary**
